@@ -19,7 +19,7 @@ int main(){
     printf("LISTAGEM\n");
     
     for(int i = 0; i < n; i++){
-        printf("%d %s %.1lf\n", N[i].cod, N[i].nome, N[i].preco);
+        printf("%d %s\n", N[i].cod, N[i].nome);
     }
     
     scanf("%d", &num);
