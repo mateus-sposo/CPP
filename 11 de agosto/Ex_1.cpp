@@ -44,9 +44,9 @@ void ContaColunasNulas(int n, int m, int M[MAX][MAX], int &conta_c){
 
 
 int main(){
- 
- int n, m, M[MAX][MAX], ln, cn;
- scanf("%d %d", &n, &m);
+
+int n, m, M[MAX][MAX], ln, cn;
+scanf("%d %d", &n, &m);
     LeMatriz(n, m, M);
     ln = ContaLinhasNulas(n, m, M);
     ContaColunasNulas(n, m, M, cn);
