@@ -1,2 +1,3 @@
 build
-testes.cpp
+%CPP
+.vscode
